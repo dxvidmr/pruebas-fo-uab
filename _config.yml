@@ -17,11 +17,11 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'Wax'
-description:      'Minimal Exhibitions with Jekyll'
+title:            'FO Social'
+description:      'Sitio web de pruebas'
 url:              'https://dxvidmr.github.io'
 baseurl:          '/pruebas-fo'
-copyright:        'Example copyright org, 2023'
+copyright:        'Example copyright org, 2024'
 logo:             '/assets/logo.png'
 default_thumb:    '/assets/default.png'
 
