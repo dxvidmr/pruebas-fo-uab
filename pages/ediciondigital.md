@@ -5,5 +5,5 @@ document: Fuenteovejuna.xml
 permalink: /ediciondigital/
 ---
 <div>
-<p>Esto es una prubea de texto en el archivo md, no viene del TEI.</p>
+<p>Para realizar las pruebas de visualización se ha utilizado el XML-TEI de <i>Fuenteovejuna</i> publicado por <a href="https://clasicoshispanicos.com/ebook/fuenteovejuna/">Clásicos Hispánicos (edición de Gaston Gilabert)</a></p>
 </div>
