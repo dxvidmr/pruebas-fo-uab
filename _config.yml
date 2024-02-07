@@ -105,6 +105,8 @@ menu:
         link: 'https://minicomp.github.io/wiki/wax/'
       - label: 'Credits'
         link: '/credits/'
+  - label: 'Edición digital'
+  link: '/ediciondigital/'
   - label: 'Exhibits'
     sub:
       - label: 'Inline Parallax Image'
