@@ -1,6 +1,6 @@
 body {
   font-family: 'Open Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 120%;
+  font-size: 100%;
 }
 sup {
   font-size: 70%;
@@ -21,10 +21,15 @@ tei-p {
   text-align: justify;
   line-height: 1.5em;
 }
+tei-hi[rend="italic"] {
+  font-style: italic;
+}
+
 tei-standoff {
   display: none;
 }
 .notes {
+  display: block;
   margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
@@ -37,6 +42,16 @@ tei-head {
 tei-list {
   display: block;
 }
+tei-item {
+  display: block;
+  margin-left: 1em;
+}
+
+tei-item::before {
+  content: "→";
+  margin-right: 5px; /* Ajusta el espacio entre el guion y el texto */
+}
+
 
 tei-text[type="literary-text"] {
   text-align: center;
@@ -52,7 +67,6 @@ tei-castList {
   margin-bottom: 1em;
   margin-left: 2em;
 }
-
 
 tei-lg,
 tei-l {
@@ -88,3 +102,52 @@ tei-stage {
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+
+
+tei-div[type="editor"] {
+  background-color: #f2f2f2; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+  padding: 20px; 
+  margin: 20px; 
+}
+
+tei-div[type="colophon"] {
+  background-color: #f2f2f2; 
+  border-radius: 10px; 
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); 
+  padding: 20px; 
+  margin: 20px; 
+}
+
+tei-quote {
+  font-style: italic;
+  text-align: center;
+}
+
+tei-milestone[unit="stanza"]::after {
+  content: "";
+  display: block;
+  border-bottom: 1px dotted #999;
+  width: 75%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.hide-lines .tei-milestone[unit="stanza"]::after {
+  display: none;
+}
+
+.container {
+  position: relative;
+}
+
+.fixed-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 999; /* Asegura que el botón esté sobre otras capas */
+}
+
+

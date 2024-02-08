@@ -48,35 +48,47 @@ var CETEI = (function () {
           return dl;
         }
       ]],
-      "note": [
-        // Make endnotes
-        ["[place=end]", function(elt){
-          if (!this.noteIndex){
-            this["noteIndex"] = 1;
-          } else {
-            this.noteIndex++;
-          }
-          let id = "_note_" + this.noteIndex;
+      "ref": [
+        ["[n]", function(elt){
+          // Obtener el número de la nota
+          let number = elt.getAttribute("n");
+          // Crear el enlace de referencia
           let link = document.createElement("a");
-          link.setAttribute("id", "src" + id);
-          link.setAttribute("href", "#" + id);
-          link.innerHTML = this.noteIndex;
+          link.setAttribute("href", "#note_" + number);
+          link.innerHTML = number;
+          // Crear el superíndice que contiene el enlace
           let content = document.createElement("sup");
           content.appendChild(link);
-          let notes = this.dom.querySelector("ol.notes");
-          if (!notes) {
-            notes = document.createElement("ol");
-            notes.setAttribute("class", "notes");
-            this.dom.appendChild(notes);
-          }
+          // Devolver el superíndice
+          return content;
+        }]
+      ],
+      "note": [
+        ["[n]", function(elt){
+          // Obtener el número de la nota
+          let number = elt.getAttribute("n");
+          // Crear el identificador único para la nota
+          let id = "note_" + number;
+          // Crear el elemento de lista de la nota
           let note = document.createElement("li");
           note.id = id;
-          note.innerHTML = elt.innerHTML;
-          notes.appendChild(note);
-          return content;
-        }],
-        ["_", ["(",")"]]
+          // Obtener el contenido de la nota
+          let noteContent = document.querySelector('note[n="' + number + '"]');
+          if (noteContent) {
+            note.innerHTML = noteContent.innerHTML;
+          }
+          // Crear el enlace de vuelta a la llamada de nota
+          let linkBack = document.createElement("a");
+          linkBack.setAttribute("href", "#src_ref_" + number);
+          linkBack.innerHTML = "↑";
+          // Agregar el enlace de vuelta al inicio de la nota
+          note.insertBefore(linkBack, note.firstChild);
+          // Devolver el elemento de lista de la nota
+          return note;
+        }]
       ],
+      
+      
       "teiHeader": function(e) {
         this.hideContent(e, false);
       },
