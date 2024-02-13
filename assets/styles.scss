@@ -7,11 +7,13 @@ variable declaration
 
 /* branding */
 $logo: url("{{ '/assets/logo.png' | absolute_url }}");
+$logoprolope: url("{{ '/assets/prolopesin.png' | absolute_url }}");
 
 /* text */
 
 $body-font:       'Open Sans', 'sans-serif';
 $heading-font:    'Mitr', 'Open Sans', 'sans-serif';
+$menu-font:       'Open Sans', 'sans-serif';
 
 
 /* Image Size */

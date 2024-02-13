@@ -97,25 +97,17 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: 'About'
+  - label: 'Acerca de'
     sub:
-      - label: 'Wax'
+      - label: 'Sobre el proyecto'
         link: '/about/'
-      - label: 'Documentation'
-        link: 'https://minicomp.github.io/wiki/wax/'
-      - label: 'Credits'
+      - label: 'Créditos'
         link: '/credits/'
-  - label: 'EXHIBICIONES'
-    sub:
-      - label: 'Inline Parallax Image'
-        link: '/exhibits/a/'
-      - label: 'Inline Image References'
-        link: '/exhibits/b/'
-  - label: 'Browse'
-    link: '/COLECCIÓN/'
-  - label: 'BUSCAR'
+  - label: 'Edición'
+    link: '/ediciondigital'
+  - label: 'Buscar'
     link: '/search/'
-  - label: 'REUSAR'
+  - label: 'Reusar'
     link: '/reuse/'
 
 # --------------------------------------------------------------
@@ -126,12 +118,11 @@ menu:
 footer:
   links:
     - label: 'GitHub'
-      link: 'https://github.com/minicomp/wax'
-    - label: 'Credits'
+      link: 'https://github.com/dxvidmr/pruebas-fo'
+    - label: 'Créditos'
       link: '/credits'
-    - label: 'Wiki'
-      link: 'https://minicomp.github.io/wiki/wax/'
   logos:
     - img: '/img/logo.png'
+    - img: '/img/prolopesin.png'
 
 # FIN

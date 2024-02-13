@@ -1,13 +1,20 @@
 ---
 layout: page
-title: Credits & Contact
+title: Créditos y contacto
 permalink: '/credits/'
 ---
 
-Wax is a minimal computing ([minicomp](https://github.com/minicomp)) project led and maintained by [Marii Nyrop](https://marii.info/) and [Alex Gil](https://github.com/elotroalex).
+Este sitio web será el resultado de la investigación doctoral de [David Merino Recalde](https://dxvidmr.github.io).
 
-It uses open source libraries and frameworks including [Jekyll](https://jekyllrb.com), [IIIF](http://iiif.io), [OpenSeaDragon](https://openseadragon.github.io/), and [ElasticLunr](http://elasticlunr.com/) and builds upon work by [Peter Binkley](https://github.com/pbinkley), [David Newbury](https://github.com/workergnome), and others.
+Para más información contacta con [david.merino[at]uab.cat](mailto:david.merino@uab.cat).
 
-We welcome and encourage contributibutions. Please get in touch, or [fork the project on GitHub](https://github.com/minicomp/wax). If you encounter any issue with the software, please [create an issue](https://github.com/minicomp/wax/issues) or find us in the **#minicomp-wax** channel within the [Code4Lib Slack](https://code4lib.slack.com). (Request an invite [here](https://docs.google.com/forms/d/e/1FAIpQLSeD77mBp0Y13mFePF8UmDwFrlbxNx3VttEjz_3dgglJeK-Zbg/viewform?c=0&w=1)!)
+Directores de tesis:
+- Ramón Valdés Gázquez (Universitat Autònoma de Barcelona)
+- Susanna Allés Torrent (University of Miami)
 
-For more on working with Wax, visit our [documentation wiki](https://minicomp.github.io/wiki/wax/).
+La tesis doctoral se está llevando a cabo en el grupo de investigación [PROLOPE](https://prolope.uab.cat/), en el marco del proyecto "La integral dramática de Lope de Vega: textos, métodos, problemas, proyección" (PID2021-124737NB-I00), y gracias a una Ayuda Joan Oró para la contratación de Personal Investigador en Formación de la Secretaria d’Universitats i Recerca del Departament de Recerca i Universitats de la Generalitat de Catalunya, cofinanciada por los Fondos Europeos Social Plus.
+
+### Créditos técnicos
+El sitio web está construido gracias al theme [Wax](https://github.com/minicomp/wax/) para Jekyll, un proyecto minimal computing ([minicomp](https://github.com/minicomp)) desarrollado y mantenido por [Marii Nyrop](https://marii.info/) and [Alex Gil](https://github.com/elotroalex). 
+
+Los archivos XML-TEI se visualizan utilizando la librería JavaScript [CETEIcean](https://github.com/TEIC/CETEIcean). 

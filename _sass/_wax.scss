@@ -48,14 +48,15 @@ header & nav bar
 
 #wax-header {
   background-color: $bg-color;
-  border-bottom: 1px solid $text-color;
-  font-family: $heading-font;
+  border-bottom: 1px solid $accent-light;
+  
   color: $text-color;
   z-index: 100000;
   padding: $margin;
   letter-spacing: 0.075rem;
 
   .navbar-brand {
+    font-family: $heading-font; /*antes estaba arriba, afectando a todo el header*/
     font-weight: 700;
     color: $accent-light;
     font-size: 2rem;
@@ -213,6 +214,7 @@ content section
   .footer-title {
     font-weight: bold;
     font-family: $heading-font;
+    color: $accent-dark;
     padding-bottom: 1em;
     margin: 0;
   }
