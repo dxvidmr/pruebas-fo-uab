@@ -17,7 +17,7 @@
 # Feel free to change these! For more info, refer to:
 # ~> https://jekyllrb.com/docs/configuration/options/
 
-title:            'FO Social'
+title:            'FUENTE OVEJUNA SOCIAL'
 description:      'Sitio web de pruebas'
 url:              'https://dxvidmr.github.io'
 baseurl:          '/pruebas-fo'
@@ -105,17 +105,17 @@ menu:
         link: 'https://minicomp.github.io/wiki/wax/'
       - label: 'Credits'
         link: '/credits/'
-  - label: 'Exhibits'
+  - label: 'EXHIBICIONES'
     sub:
       - label: 'Inline Parallax Image'
         link: '/exhibits/a/'
       - label: 'Inline Image References'
         link: '/exhibits/b/'
   - label: 'Browse'
-    link: '/collection/'
-  - label: 'Search'
+    link: '/COLECCIÓN/'
+  - label: 'BUSCAR'
     link: '/search/'
-  - label: 'Reuse'
+  - label: 'REUSAR'
     link: '/reuse/'
 
 # --------------------------------------------------------------
