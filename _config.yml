@@ -103,12 +103,14 @@ menu:
         link: '/about/'
       - label: 'Créditos'
         link: '/credits/'
-  - label: 'Edición'
+  - label: 'Lee'
     link: '/ediciondigital'
-  - label: 'Buscar'
+  - label: 'Busca'
     link: '/search/'
-  - label: 'Reusar'
+  - label: 'Reúsa'
     link: '/reuse/'
+  - label: 'Participa'
+    link: '/participa/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS
