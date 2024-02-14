@@ -21,7 +21,7 @@ title:            'FUENTE OVEJUNA SOCIAL'
 description:      'Sitio web de pruebas'
 url:              'https://dxvidmr.github.io'
 baseurl:          '/pruebas-fo'
-copyright:        'Example copyright org, 2024'
+copyright:        'David Merino Recalde 2024'
 logo:             '/assets/logo.png'
 default_thumb:    '/assets/default.png'
 
