@@ -97,7 +97,7 @@ search:
 # submenu via `sub`.
 
 menu:
-  - label: 'Acerca de'
+  - label: 'Aprende'
     sub:
       - label: 'Sobre el proyecto'
         link: '/about/'
@@ -105,12 +105,12 @@ menu:
         link: '/credits/'
   - label: 'Lee'
     link: '/ediciondigital'
-  - label: 'Busca'
-    link: '/search/'
-  - label: 'Reúsa'
+  - label: 'Investiga'
     link: '/reuse/'
   - label: 'Participa'
     link: '/participa/'
+  - label: '🔎'
+    link: '/search/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS
