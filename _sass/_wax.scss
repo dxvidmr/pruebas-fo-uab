@@ -62,6 +62,10 @@ header & nav bar
     font-size: 2rem;
     white-space: normal;
   }
+  .navbar-brand img {
+    width: 150px; /* O el ancho que prefieras */
+    height: auto; /* Esto mantendrá las proporciones del logo */
+  }
 
   .navbar-brand:hover {
     color: $accent-dark;
