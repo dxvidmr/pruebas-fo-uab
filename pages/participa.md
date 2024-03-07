@@ -4,7 +4,7 @@ title:
 permalink: /participa/
 ---
 
-## Participa en el Archivo Social de *Fuente Ovejuna*
+# Participa en el Archivo Social de *Fuente Ovejuna*
 Todas tus aportaciones, ya sean experiencias o documentales, se incluirán en el Archivo Social que estamos construyendo entre todos. 
 
 <div>
