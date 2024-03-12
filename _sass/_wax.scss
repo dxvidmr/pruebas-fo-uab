@@ -211,6 +211,10 @@ content section
   padding-bottom: 5rem;
   padding-top: 3rem;
   background-color: $neutral;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
   col {
     flex-basis: 0;
     flex-shrink: 0;
@@ -249,7 +253,7 @@ content section
       text-decoration: none;
     }
     img {
-      height: 35px
+      height: 50px
     }
   }
 }

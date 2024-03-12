@@ -124,7 +124,9 @@ footer:
     - label: 'Créditos'
       link: '/credits'
   logos:
-    - img: '/img/logo.png'
+    #- img: '/img/logoBNE.jpg'
+    #  link: 'https://www.bne.es/es'
     - img: '/img/prolopesin.png'
+      link: 'https://prolope.uab.cat/'
 
 # FIN
