@@ -2,7 +2,7 @@
   <div class='wax-inline-container'>
     <div class='row'>
       <div class='col-12'>
-        <p class='footer-title'>{{ site.title }}</p>
+        <p class='footer-title'><span class="color1">FUENTE OVEJUNA</span> <span class="color2">SOCIAL</span></p> <!--en origen: {{ site.title }}-->
         <p class='footer-description'>{{ site.description }}</p>
         
         <!--<p class='footer-title'>Enlaces</p>
@@ -21,6 +21,19 @@
             <img src='{{ item.img | absolute_url }}' alt="logo"/>
           </a>
           {% endfor %}
+        </p>
+
+        <p class="colaboradores">
+          Con la colaboración de <br>
+          <a href="https://dfe.uab.cat/" target="_blank">
+            <img src="img\logo\logodeptnegro.png" alt="Logo Departamento Filologia Espanyola UAB">
+          </a>
+          <a href="https://www.bne.es/es" target="_blank">
+            <img src="img/logo/logoBNE.jpg" alt="Logo Biblioteca Nacional de España">
+          </a>
+          <a href="https://comunidad.bne.es/" target="_blank">
+            <img src="img\logo\bne-comunidad-logo.png" alt="Logo Comunidad BNE">
+          </a>
         </p>
 
         <p class='footer-copyright'>

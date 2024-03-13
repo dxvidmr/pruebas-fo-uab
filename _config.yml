@@ -18,7 +18,7 @@
 # ~> https://jekyllrb.com/docs/configuration/options/
 
 title:            'FUENTE OVEJUNA SOCIAL'
-description:      'Sitio web de pruebas'
+description:      'Edición y archivo colaborativo. Sitio web en pruebas'
 url:              'https://dxvidmr.github.io'
 baseurl:          '/pruebas-fo'
 copyright:        'David Merino Recalde 2024'
