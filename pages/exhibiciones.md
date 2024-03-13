@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /exhibits/
-title: Featured Exhibits
+permalink: /exhibiciones/
+title: Exhibiciones
 ---
 
 {% assign exhibits = site.exhibits | where: 'layout','exhibit' %}

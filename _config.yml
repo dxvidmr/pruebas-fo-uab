@@ -98,17 +98,21 @@ menu:
   - label: 'Aprende'
     sub:
       - label: 'Sobre el proyecto'
-        link: '/about/'
+        link: '/proyecto/'
+      - label: 'Sobre Fuente Ovejuna'
+        link: '/Exhibiciones/'
       - label: 'Créditos'
-        link: '/credits/'
-  - label: 'Lee'
+        link: '/creditos/'
+  - label: 'Edición'
     link: '/ediciondigital'
-  - label: 'Investiga'
-    link: '/reuse/'
+  - label: 'Archivo'
+    link: '/archivo/'
   - label: 'Participa'
     link: '/participa/'
+  - label: 'Descargas'
+    link: '/descargas/'
   - label: '🔍︎'
-    link: '/search/'
+    link: '/buscar/'
 
 # --------------------------------------------------------------
 # SITE FOOTER SETTINGS

@@ -1,4 +1,4 @@
-{% assign placeholder = include.placeholder | default: 'Escribe aquí... ' %}
+{% assign placeholder = include.placeholder | default: 'Busca aquí... ' %}
 {% assign key = include.search | default: 'main' %}
 {% assign config = site.search[key] %}
 {% assign index = config.index | absolute_url %}

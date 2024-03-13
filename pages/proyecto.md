@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ¿Qué es FUENTE OVEJUNA SOCIAL?
-permalink: /about/
+permalink: /proyecto/
 ---
 
 

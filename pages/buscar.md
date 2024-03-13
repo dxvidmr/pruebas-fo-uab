@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Busca en el archivo
-permalink: /search/
+permalink: /buscar/
 ---
 
 {% include search_box.html search='main' %}

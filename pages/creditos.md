@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Créditos y contacto
-permalink: '/credits/'
+permalink: '/creditos/'
 ---
 
 Este sitio web será el resultado de la investigación doctoral de [David Merino Recalde](https://dxvidmr.github.io).
