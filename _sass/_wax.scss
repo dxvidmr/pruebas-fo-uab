@@ -212,9 +212,9 @@ content section
   padding-top: 3rem;
   background-color: $neutral;
   display: flex;
-  justify-content: center; 
-  align-items: center; 
-  text-align: center;
+  justify-content: left; 
+  align-items: left; 
+  text-align: left;
   col {
     flex-basis: 0;
     flex-shrink: 0;
@@ -241,10 +241,31 @@ content section
     font-size: .9em;
     line-height: 1.2;
   }
+  .footer-contact {
+    font-family: $body-font;
+    margin: 0;
+    font-size: .9em;
+    line-height: 1.2;
+  }
+  #footer-contact-title {
+    font-weight: bold;
+    font-family: $heading-font;
+    margin: 0;
+  }
   .footer-copyright {
     margin: $margin 0 $margin 0;
     font-size: .9em;
     line-height: 1.2;
+    font-family: $body-font;
+    font-size: .9em;
+    line-height: 2;
+    margin: $margin 0 $margin 0;
+    a {
+      text-decoration: none;
+    }
+    img {
+      height: 25px;
+    }
   }
   .footer-links {
     font-family: $body-font;
