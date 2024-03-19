@@ -3,22 +3,22 @@ layout: none
 ---
 {
   "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/collection/fuenteovejuna.json",
+  "@id": "{{ '/' | relative_url }}img/derivatives/iiif/collection/fuenteovejuna.json",
   "@type": "sc:Collection",
   "label": "fuenteovejuna",
   "manifests": [
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj1/manifest.json",
+      "@id": "{{ '/' | relative_url }}img/derivatives/iiif/obj1/manifest.json",
       "@type": "sc:Manifest",
       "label": "obj1"
     },
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj3/manifest.json",
+      "@id": "{{ '/' | relative_url }}img/derivatives/iiif/obj3/manifest.json",
       "@type": "sc:Manifest",
       "label": "obj3"
     },
     {
-      "@id": "{{ '/' | absolute_url }}img/derivatives/iiif/obj4/manifest.json",
+      "@id": "{{ '/' | relative_url }}img/derivatives/iiif/obj4/manifest.json",
       "@type": "sc:Manifest",
       "label": "obj4"
     }

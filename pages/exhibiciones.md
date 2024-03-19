@@ -8,7 +8,7 @@ title: Exhibiciones
 <ul>
   {% for exhibit in exhibits %}
     <li>
-      <a href='{{ exhibit.url | absolute_url }}'>
+      <a href='{{ exhibit.url | relative_url }}'>
         {{ exhibit.title }}
       </a>
     </li>

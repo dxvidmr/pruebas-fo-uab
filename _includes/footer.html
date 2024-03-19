@@ -13,13 +13,13 @@
         <p class="colaboradores">
           Con la colaboración de <br>
           <a href="https://dfe.uab.cat/" target="_blank">
-            <img src="img\logo\logodeptnegro.png" alt="Logo Departamento Filologia Espanyola UAB">
+            <img src="{{ '/img/logo/logodeptnegro.png' | relative_url }}" alt="Logo Departamento Filologia Espanyola UAB">
           </a>
           <a href="https://www.bne.es/es" target="_blank">
-            <img src="img/logo/logoBNE.jpg" alt="Logo Biblioteca Nacional de España">
+            <img src="{{ '/img/logo/logoBNE.jpg' | relative_url }}" alt="Logo Biblioteca Nacional de España">
           </a>
           <a href="https://comunidad.bne.es/" target="_blank">
-            <img src="img\logo\bne-comunidad-logo.png" alt="Logo Comunidad BNE">
+            <img src="{{ '/img/logo/bne-comunidad-logo.png' | relative_url }}" alt="Logo Comunidad BNE">
           </a>
         </p>
 
@@ -27,9 +27,9 @@
       <div class="col">
         <p class='footer-logos'>
           {% for item in site.footer.logos %}
-          <a href="{{ item.link | absolute_url }}" target="_blank" rel="noopener noreferrer"
+          <a href="{{ item.link | relative_url }}" target="_blank" rel="noopener noreferrer"
             aria-label="Logo link to resource">
-            <img src='{{ item.img | absolute_url }}' alt="logo" />
+            <img src='{{ item.img | relative_url }}' alt="logo" />
           </a>
           {% endfor %}
         </p>
@@ -40,10 +40,10 @@
       <div class="col-12">
         <p class='footer-copyright'>
           <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">
-            <img src="img\logo\cc-by-nc-sa.png" alt="Licencia CC BY NC SA">
+            <img src="{{ '/img/logo/cc-by-nc-sa.png' | relative_url }}" alt="Licencia CC BY NC SA">
           </a>
           <a href="https://github.com/dxvidmr/pruebas-fo" target="_blank">
-            <img src="img\logo\GitHubLogo.svg" alt="GitHub">
+            <img src="{{ '/img/logo/GitHubLogo.svg' | relative_url }}" alt="GitHub">
           </a>
           // Built with <a href='https://github.com/minicomp/wax/' target="_blank"
             rel="noopener noreferrer">Minicomp/Wax</a> &
